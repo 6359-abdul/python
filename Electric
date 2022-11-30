@@ -44,12 +44,12 @@ print("total bill",bill+tax-dis)
 OUTPUT :
 which groceries you want:rice kaju oil badam sal
 name:kms
-phone number:7989137145
+phone number:9390769913
 city:kainada
 enter your coupon in capitals:CHRISMAS
 bill 4545.45
-customer name: rajkumar
-custmoer number: 7989137145
+customer name: kms
+custmoer number: 9390769913
 custmoer city: kainada
 bill without tax 4329
 discount on bill: 865.8
