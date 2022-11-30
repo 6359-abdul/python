@@ -1,7 +1,4 @@
-etions.
- 28  
-ass-9.3 current bill
-@@ -0,0 +1,28 @@
+
 name=str(input("enter your name:"))
 hno=int(input("enter your house number:"))
 ps=int(input("enter your present reading:"))
@@ -26,7 +23,7 @@ enter your name:kms
 enter your house number:4567
 enter your present reading:300
 enter your  preavious reading:650
-name: rajkumar
+name:kms
 house number: 4567
 this month total units: 350
 current bill: 1750
