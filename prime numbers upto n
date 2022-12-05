@@ -1,0 +1,17 @@
+n=int(input(' '))
+num=1
+while num<n:
+    temp=0
+    i=2
+    num+=1
+    while i<num:
+        if num%i==0:
+            temp=temp+1
+            break
+            i+=1
+        i+=1
+    if(temp==0 and num!=1):
+        print(num,end=' ')
+   OUTPUT:
+   100
+   2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
