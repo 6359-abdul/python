@@ -1,0 +1,12 @@
+n=int(input('enter the n digit value'))
+sume=0
+
+r=0
+while n>0: 
+    r=n%10
+    sume=sume+r
+    n=n/10
+print(sume)
+OUTPUT:
+enter the n digit value 125
+8.88888888888889
