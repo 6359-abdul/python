@@ -1,0 +1,16 @@
+n=int(input('enter the number '))
+temp=n
+sume=0
+r=0
+while n>0:
+    r=n%10
+    sume=sume*10+r
+    n=n//10
+if(temp==sume):
+    print("Given no",temp,"is Palindrome")
+else:
+    print("Given no",temp,"is Not Palindrome")
+OUTPUT:
+enter the number 191
+Given no 191 is Palindrome
+
