@@ -1,0 +1,15 @@
+n=int(input('Enter the number: '))
+temp=n
+sume=0
+r=0
+while n>0:
+    r=n%10
+    sume=sume+r**3
+    n=n//10
+if(temp==sume):
+    print("Given no",temp,"is ArmStrong")
+else:
+    print("Given no",temp,"is Not ArmStrong")
+OUTPUT:
+Enter the number: 153
+Given no 153 is ArmStrong
