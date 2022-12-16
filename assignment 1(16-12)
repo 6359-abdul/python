@@ -1,0 +1,19 @@
+str=input('enter any string')
+for i in str:
+    print(i)
+s1=str.lower()
+print(s1)
+s2=str.upper()
+print(s2)
+s=str.swapcase()
+print(s)
+OUTPUT:
+enter any string abdul
+a
+b
+d
+u
+l
+abdul
+ABDUL
+ABDUL
