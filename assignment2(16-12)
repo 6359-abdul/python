@@ -1,0 +1,9 @@
+str=input('enter the string')
+c=0
+l=len(str)
+for i in range(0,l):
+    c=c+1
+print(c)
+OUTPUT:.
+enter the stringabdul
+5
