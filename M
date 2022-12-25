@@ -1,9 +1,11 @@
-def unique(l):
-    m=[]
-    for i in l:
-        c=l.count(i)
-        if c==1:
-            m.append(i)
-    print(m)
+n=int(input())
 l=list(map(int,input().split()))
-unique(l)
+c=0
+for i in range(0,n-1):
+    for j in range(i+1,n):
+        if(l[i]==l[j]):
+            c=c+1
+if c==0:
+    print("Unique")
+else:
+    print("Duplicate")
