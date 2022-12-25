@@ -26,4 +26,4 @@ class Solution:
             res=x
 N = int(input())
 ob = Solution()
-print(ob.previousHappy(N)
+print(ob.previousHappy(N))
