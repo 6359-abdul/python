@@ -1,0 +1,25 @@
+def x(lst):
+    f = {}
+    for num in lst:
+        f[num] = f.get(num, 0) + 1
+
+    max_f= max(f,key=f.get)
+    min_f= min(f,key=f.get)
+
+    max_fr = f[max_f]
+    min_fr = f[min_f]
+
+    f_diff = max_fr - min_fr
+
+    print(f"Maximum frequency number: {max_f} (frequency: {max_fr})")
+    print(f"Minimum frequency number: {min_f} (frequency: {min_fr})")
+    print(f"Difference between maximum and minimum frequency: {f_diff}")
+
+# Example usage:
+lst = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+x(lst)
+"""
+Maximum frequency number: 4 (frequency: 4)
+Minimum frequency number: 1 (frequency: 1)
+Difference between maximum and minimum frequency: 3
+"""
