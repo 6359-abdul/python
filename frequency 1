@@ -1,0 +1,17 @@
+def x(l):   #x is used to find least frequent number
+    c={}
+    for n in l:
+        if n in c:
+            c[n]+=1
+        else:
+            c[n]=1
+    le=0
+    l_f=len(l)+1
+    for n,f in c.items():
+        if f<l_f:
+            le=n
+            l_f=f
+    return le
+l=[1,2,3,4,5,6,1,2,3,4,5]
+le=x(l)
+print("Least frequency number in among list is:",le)
