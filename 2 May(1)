@@ -1,0 +1,19 @@
+ind={}
+n=int(input('enter no of players'))
+for i in range(1+n+1):
+    l=[]
+    snum=int(input('enter student num'))
+    sname=int(input('enter student name'))
+    branch=int(input('enter  branch'))
+    college=int(input('enter college '))
+    l.append(snum)
+    l.append(sname)
+    l.append(branch)
+    l.apoend(college)
+    ind[sno]=l
+print(ind)
+sno=int(input('enter student no details'))
+print('snum:',ind[sno][0])
+print('sname:',ind[sno][1])
+print('branch',ind[sno][2])
+print('college:',ind[sno][3])
